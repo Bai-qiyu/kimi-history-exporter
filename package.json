@@ -1,0 +1,12 @@
+{
+  "name": "kimi-history-exporter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resumable, local-first bulk history exporter for Kimi web",
+  "scripts": {
+    "check": "node --check src/kimi-history-exporter.user.js",
+    "test": "node --test tests/kimi-history-exporter.test.cjs"
+  },
+  "license": "AGPL-3.0-only"
+}
+
