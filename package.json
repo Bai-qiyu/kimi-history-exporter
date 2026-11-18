@@ -5,7 +5,7 @@
   "description": "Resumable, local-first bulk history exporter for Kimi web",
   "scripts": {
     "check": "node --check src/kimi-history-exporter.user.js",
-    "test": "node --test tests/kimi-history-exporter.test.cjs"
+    "test": "node --test tests/*.test.cjs"
   },
   "license": "AGPL-3.0-only"
 }

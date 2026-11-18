@@ -2,4 +2,7 @@ node_modules/
 coverage/
 dist/
 *.log
+kimi-export-part-*.json
+kimi-history-*-part-*.json
+Kimi聊天记录_整理版/
 

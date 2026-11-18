@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kimi History Archive"
+  short_description: "批量导出、断点续传、校验并整理完整的 Kimi 历史对话"
+  default_prompt: "Use $kimi-history-archive to export and organize my Kimi chat history into readable Markdown archives."

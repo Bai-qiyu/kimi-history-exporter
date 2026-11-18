@@ -57,6 +57,22 @@ npm test
 
 测试只依赖 Node.js 内置模块，无需安装第三方依赖。
 
+## Codex Skill：完整导出与整理
+
+仓库同时提供 [`kimi-history-archive`](skills/kimi-history-archive/SKILL.md) Skill，覆盖：
+
+- 安装和运行批量导出脚本
+- 登录失效、`401`、重复分片和断点续传处理
+- 分片完整性检查
+- 自动恢复“问题 → Kimi 回答”顺序
+- 按年月生成每个对话独立的 Markdown 文件和总目录
+
+整理已有分片也可以直接运行：
+
+```powershell
+node skills/kimi-history-archive/scripts/organize-kimi-chats.js --input "C:\path\to\part-001.json"
+```
+
 ## 隐私与安全
 
 - 脚本会读取当前浏览器中的 Kimi 登录状态，以代表你请求自己的会话数据。
